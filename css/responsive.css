@@ -69,11 +69,13 @@
   .banner-text {
     padding-top: 35%; } }
 @media screen and (max-width: 480px) {
+  .banner { min-height: 300px }
   .banner-text {
     padding-top: 45%; }
     .banner-text h1 {
       font-size: 32px; } }
 @media screen and (max-width: 320px) {
+  .banner { min-height: 300px }
   .banner-text {
     padding-top: 55%; }
 

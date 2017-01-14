@@ -75,7 +75,7 @@ ul li {
   list-style: none; }
 
 .section {
-  padding: 100px 0; }
+  padding: 80px 0; }
 
 .no-padding {
   padding: 0; }
@@ -91,13 +91,14 @@ ul li {
   position: fixed;
   width: 100%;
   z-index: 999;
-  background-color: #292c47;
+  background-color: #fff;
+  border-bottom: 5px solid #6c7279;
 }
   #header .header-content {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
     margin: 0 auto;
     max-width: 1170px;
-    padding: 40px 0;
+    padding: 10px 0;
     width: 100%;
     -moz-transition: padding 0.3s;
     -o-transition: padding 0.3s;
@@ -107,10 +108,9 @@ ul li {
     float: left; }
 
 #header.fixed {
-  background-color: #292c47; }
+  background-color: #fff; }
   #header.fixed .header-content {
-    border-bottom: 0;
-    padding: 25px 0; }
+    padding: 3px 0; }
   #header.fixed .nav-toggle {
     top: 18px; }
 
@@ -123,17 +123,19 @@ ul li {
   transition: opacity 0.5s; }
 
 .navigation {
-  float: right; }
+  float: right;
+  margin-top: 50px;}
   .navigation li {
     display: inline-block; }
   .navigation a {
-    color: rgba(255, 255, 255, 0.75);
+    color: #6c7279;
     font-size: 13px;
     font-weight: 700;
     margin-left: 40px;
     text-transform: uppercase; }
     .navigation a:hover, .navigation a.active {
-      color: #fff; }
+      color: #292c47;
+    }
 
 .nav-toggle {
   display: none;
@@ -170,7 +172,7 @@ ul li {
     -webkit-transition-property: -webkit-transform;
     transition-property: transform; }
   .nav-toggle:before {
-    background-color: #e84545;
+    background-color: #3a3e64;
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
@@ -269,7 +271,7 @@ ul li {
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  min-height: 750px; }
+  min-height: 550px; }
 
 .banner-text {
   padding-top: 25%; }
@@ -397,8 +399,8 @@ ul li {
     text-align: center;
     width: 40px; }
     .social-icons a:hover, .footer .footer-share a:hover {
-      background-color: #e84545;
-      border-color: #e84545;
+      background-color: #3a3e64;
+      border-color: #3a3e64;
       color: #fff; }
 
 /* ==========================================================================
@@ -458,6 +460,9 @@ ul li {
     color: #fff; }
     .footer a:hover {
       color: #e84545; }
+  .footer .footer-share-box {
+    text-align: left;
+  }
   .footer .footer-share {
     margin-top: 0; }
     .footer .footer-share li {
